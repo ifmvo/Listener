@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        style="@style/tongji_layout">
+
+        <TextView
+            style="@style/tongji"
+            android:text="地点 1" />
+
+        <TextView
+            android:id="@+id/tv1"
+
+            style="@style/tongji_ci" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginLeft="2dp"
+            android:text="次"/>
+
+    </LinearLayout>
+    <View
+        style="@style/line_horizontal"/>
+    <LinearLayout
+        style="@style/tongji_layout">
+
+        <TextView
+            style="@style/tongji"
+            android:text="地点 2" />
+
+        <TextView
+            android:id="@+id/tv2"
+
+            style="@style/tongji_ci" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginLeft="2dp"
+            android:text="次"/>
+
+    </LinearLayout>
+    <View
+        style="@style/line_horizontal"/>
+    <LinearLayout
+        style="@style/tongji_layout">
+
+        <TextView
+            style="@style/tongji"
+            android:text="地点 3" />
+
+        <TextView
+            android:id="@+id/tv3"
+
+            style="@style/tongji_ci" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginLeft="2dp"
+            android:text="次"/>
+
+    </LinearLayout>
+    <View
+        style="@style/line_horizontal"/>
+    <LinearLayout
+        style="@style/tongji_layout">
+
+        <TextView
+            style="@style/tongji"
+            android:text="紧急警告" />
+
+        <TextView
+            android:id="@+id/tvJ"
+
+            style="@style/tongji_ci" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginLeft="2dp"
+            android:text="次"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_marginBottom="10dp"
+        style="@style/line_horizontal"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/total"
+            android:textSize="20sp"
+            android:textColor="@color/red"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_toLeftOf="@id/total"
+            android:layout_width="wrap_content"
+            android:text="总计："
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+
+</LinearLayout>

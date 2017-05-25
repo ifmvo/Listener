@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="refreshrecycle_loading">正在加载…</string>
+    <string name="refreshrecycle_refreshing">正在刷新…</string>
+    <string name="refreshrecycle_complete">刷新完成</string>
+    <string name="refreshrecycle_loadend">数据加载完成</string>
+</resources>

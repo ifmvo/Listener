@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layTabItem"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="?android:selectableItemBackground"
+    android:layout_height="@dimen/bottom_tab_h">
+
+
+    <ImageView
+        android:id="@+id/ivTabItemImg"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+
+    <TextView
+        android:id="@+id/tvTabItemTitle"
+        android:textSize="10sp"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvCirclePoint"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:visibility="gone" />
+
+</LinearLayout>
+
+

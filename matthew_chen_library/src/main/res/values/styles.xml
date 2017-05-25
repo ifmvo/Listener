@@ -1,0 +1,41 @@
+<resources>
+
+    <!--横向的线-->
+    <style name="line_horizontal">
+        <item name="android:background">@color/line</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/line_h</item>
+    </style>
+
+    <!--竖向的线-->
+    <style name="line_vertical">
+        <item name="android:background">@color/line</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">@dimen/line_h</item>
+    </style>
+
+    <!-- Dialog 通用的 -->
+    <style name="dialog_common" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item><!--是否浮在在activity的上面-->
+        <item name="android:windowContentOverlay">@null</item><!--每次启动 应用程序的时候 一开始显示的不是那个设置的背景图片  而是白色或黑色背景 -->
+        <item name="android:windowIsTranslucent">true</item> <!--半透明的-->
+        <item name="android:backgroundDimEnabled">true</item><!--是否允许背景变暗-->
+        <item name="android:backgroundDimAmount">0.7</item><!--变暗的程度喽-->
+    </style>
+
+    <!--=====================================================================-->
+
+    <!-- LoadingDialog -->
+    <style name="dialog_loading" parent="android:style/Theme.Dialog">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <!-- wheelPicker 滚轮 -->
+    <style name="dialog_picker" parent="dialog_common">
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+
+</resources>

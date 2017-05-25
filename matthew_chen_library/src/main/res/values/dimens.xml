@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="top_bar_h">50dp</dimen>
+    <dimen name="top_title_size">15.5sp</dimen>
+    <dimen name="line_h">0.1dp</dimen>
+    <dimen name="line_w">0.5dp</dimen>
+    <dimen name="bottom_tab_h">50dp</dimen>
+    <dimen name="banner_h">250dp</dimen>
+    <dimen name="indicator_h">50dp</dimen>
+    <dimen name="activity_mar_left">16dp</dimen>
+    <dimen name="activity_mar_right">16dp</dimen>
+
+    <!--recyclerView_manager_library-->
+    <dimen name="loading_size">35dp</dimen>
+</resources>
